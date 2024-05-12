@@ -10,7 +10,7 @@ import Foundation
 enum BluetoothStatus: String{
     case off = "OFF"
     case on = "ON"
-    case resseting = "RESSETING"
+    case resetting = "RESETTING"
     case unathorized = "UNATHORIZED"
     case unsupported = "UNSUPPORTED"
     case unknown = "UNKNOWN"

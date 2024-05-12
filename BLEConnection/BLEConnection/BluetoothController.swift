@@ -40,7 +40,7 @@ extension BluetoothController: CBCentralManagerDelegate {
             
         case .resetting:
             // Wait for next state update and consider logging interruption of Bluetooth service
-            bluetoothStatus = BluetoothStatus.resseting
+            bluetoothStatus = BluetoothStatus.resetting
             
         case .unauthorized:
             // Alert user to enable Bluetooth permission in app Settings
