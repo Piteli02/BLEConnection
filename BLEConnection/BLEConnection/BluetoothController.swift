@@ -8,7 +8,7 @@
 import Foundation
 import CoreBluetooth
 
-class BluetoothController: NSObject, ObservableObject, CBPeripheralDelegate {
+class BluetoothController: NSObject, ObservableObject{
     
     private var centralManager: CBCentralManager!
     
@@ -26,7 +26,7 @@ class BluetoothController: NSObject, ObservableObject, CBPeripheralDelegate {
     
 }
 
-extension BluetoothController: CBCentralManagerDelegate {
+extension BluetoothController: CBCentralManagerDelegate, CBPeripheralDelegate  {
     
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         switch central.state {

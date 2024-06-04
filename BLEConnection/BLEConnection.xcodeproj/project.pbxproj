@@ -23,6 +23,7 @@
 		749BD0352BB0C7AA0082BE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749BD0382BB0C7AA0082BE3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		749BD03F2BB0C7B60082BE3F /* BluetoothController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothController.swift; sourceTree = "<group>"; };
+		74AB12E22C0F349900FB2E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		749BD0302BB0C7A90082BE3F /* BLEConnection */ = {
 			isa = PBXGroup;
 			children = (
+				74AB12E22C0F349900FB2E79 /* Info.plist */,
 				749BD0312BB0C7A90082BE3F /* BLEConnection.swift */,
 				749BD0332BB0C7A90082BE3F /* ContentView.swift */,
 				749BD03F2BB0C7B60082BE3F /* BluetoothController.swift */,
@@ -283,7 +285,9 @@
 				DEVELOPMENT_TEAM = Q92SD7R6D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEConnection/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BLEConnection;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow to connect to arduino";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow to connect to arduino";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,7 +319,9 @@
 				DEVELOPMENT_TEAM = Q92SD7R6D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEConnection/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BLEConnection;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow to connect to arduino";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow to connect to arduino";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
